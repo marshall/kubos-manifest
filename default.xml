@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <remote name="openkosmosorg" fetch="git://github.com/openkosmosorg/"/>
+  <default remote="openkosmosorg" revision="master"/>
+
+  <project name="kubos-rt"/>
+  <project name="kubos-linux"/>
+
+  <project name="cmsis-core" path="cmsis/cmsis-core"/>
+  <project name="cmsis-core-st" path="cmsis/cmsis-core-st"/>
+  <project name="cmsis-core-stm32f4" path="cmsis/cmsis-core-stm32f4"/>
+  <project name="cmsis-core-stm32f407xg" path="cmsis/cmsis-core-stm32f407xg"/>
+
+  <project name="freertos" path="freertos/os"/>
+  <project name="freertos-config-stm32f4" path="freertos/config-stm32f4"/>
+  <project name="freertos-config-msp430f5529" path="freertos/config-msp43f5529"/>
+
+  <project name="kubos-core"/>
+  <project name="libcsp"/>
+
+  <project name="kubos-hal" path="hal/kubos-hal"/>
+  <project name="kubos-hal-stm32f407vg" path="hal/kubos-hal-stm32f407vg"/>
+  <project name="stm32cubef4" path="hal/stm32cubef4"/>
+  <project name="stm32cubef4-stm32f407vg" path="hal/stm32cubef4-stm32f407vg"/>
+
+  <project name="target-kubos-gcc" path="targets/target-kubos-gcc"/>
+  <project name="target-kubos-arm-none-eabi-gcc" path="targets/target-kubos-arm-none-eabi-gcc"/>
+  <project name="target-stm32f407-disco-gcc" path="targets/target-stm32f407-disco-gcc"/>
+  <project name="target-msp430-gcc" path="targets/target-msp430-gcc"/>
+  <project name="target-arm-linux-gcc" path="targets/target-arm-linux-gcc"/>
+
+  <project name="kubos-location-demo" path="examples/kubos-location-demo"/>
+  <project name="kubos-rt-example" path="examples/kubos-rt-example"/>
+</manifest>
