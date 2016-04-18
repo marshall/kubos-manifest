@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-  <remote name="openkosmosorg" fetch="git://github.com/openkosmosorg/"/>
+  <remote name="openkosmosorg" fetch="https://github.com/openkosmosorg/"/>
   <default remote="openkosmosorg" revision="master"/>
 
   <project name="kubos-rt"/>
