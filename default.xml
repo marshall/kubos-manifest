@@ -20,13 +20,14 @@
 
   <project name="kubos-hal" path="hal/kubos-hal"/>
   <project name="kubos-hal-stm32f407vg" path="hal/kubos-hal-stm32f407vg"/>
+  <project name="kubos-hal-msp430f5529" path="hal/kubos-hal-msp430f5529"/>
   <project name="stm32cubef4" path="hal/stm32cubef4"/>
   <project name="stm32cubef4-stm32f407vg" path="hal/stm32cubef4-stm32f407vg"/>
 
   <project name="target-kubos-gcc" path="targets/target-kubos-gcc"/>
   <project name="target-kubos-arm-none-eabi-gcc" path="targets/target-kubos-arm-none-eabi-gcc"/>
   <project name="target-stm32f407-disco-gcc" path="targets/target-stm32f407-disco-gcc"/>
-  <project name="target-msp430-gcc" path="targets/target-msp430-gcc"/>
+  <project name="target-msp430f5529-gcc" path="targets/target-msp430f5529-gcc"/>
   <project name="target-arm-linux-gcc" path="targets/target-arm-linux-gcc"/>
 
   <project name="kubos-location-demo" path="examples/kubos-location-demo"/>
