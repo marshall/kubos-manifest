@@ -32,4 +32,5 @@
 
   <project name="kubos-location-demo" path="examples/kubos-location-demo"/>
   <project name="kubos-rt-example" path="examples/kubos-rt-example"/>
+  <project name="kubos-sdk" path="sdk"/>
 </manifest>
