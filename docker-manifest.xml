@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <remote name="openkosmosorg" fetch="https://github.com/openkosmosorg/"/>
+  <default remote="openkosmosorg" revision="master"/>
+
+  <project name="kubos-rt" path="yotta_modules/kubos-rt" revision="refs/tags/v0.0.1"/>
+
+  <project name="cmsis-core" path="yotta_modules/cmsis-core" revision="refs/tags/v1.2.1"/>
+  <project name="cmsis-core-st" path="yotta_modules/cmsis-core-st" revision="refs/tags/v1.0.2"/>
+  <project name="cmsis-core-stm32f4" path="yotta_modules/cmsis-core-stm32f4" revision="refs/tags/v1.2.1"/>
+  <project name="cmsis-core-stm32f407xg" path="yotta_modules/cmsis-core-stm32f407xg" revision="refs/tags/v0.0.2"/>
+
+  <project name="freertos" path="yotta_modules/freertos" revision="refs/tags/v9.0.1"/>
+  <project name="freertos-config-stm32f4" path="yotta_modules/config-stm32f4" revision="refs/tags/v0.0.1"/>
+  <project name="freertos-config-msp430f5529" path="yotta_modules/config-msp43f5529" revision="refs/tags/v0.0.1"/>
+
+  <project name="kubos-core" path="yotta_modules/kubos-core" revision="refs/tags/v0.0.1"/>
+  <project name="libcsp" path="yotta_modules/libcsp" revision="refs/tags/v1.4.1"/>
+
+  <project name="kubos-hal" path="yotta_modules/kubos-hal" revision="refs/tags/v0.0.1"/>
+  <project name="kubos-hal-stm32f407vg" path="yotta_modules/kubos-hal-stm32f407vg" revision="refs/tags/v0.0.1"/>
+  <project name="kubos-hal-msp430f5529" path="yotta_modules/kubos-hal-msp430f5529" revision="refs/tags/v0.0.1"/>
+  <project name="msp430f5529-hal" path="yotta_modules/msp430f5529-hal" revision="refs/tags/v0.0.1"/>
+  <project name="stm32cubef4" path="yotta_modules/stm32cubef4" revision="refs/tags/v1.2.1"/>
+  <project name="stm32cubef4-stm32f407vg" path="yotta_modules/stm32cubef4-stm32f407vg" revision="refs/tags/v0.0.1"/>
+
+  <project name="target-kubos-gcc" path="yotta_targets/target-kubos-gcc" revision="refs/tags/v0.0.1"/>
+  <project name="target-kubos-arm-none-eabi-gcc" path="yotta_targets/target-kubos-arm-none-eabi-gcc" revision="refs/tags/v0.0.1"/>
+  <project name="target-stm32f407-disco-gcc" path="yotta_targets/target-stm32f407-disco-gcc" revision="refs/tags/v0.0.4"/>
+  <project name="target-msp430f5529-gcc" path="yotta_targets/target-msp430f5529-gcc" revision="refs/tags/v0.0.1"/>
+  <project name="target-arm-linux-gcc" path="yotta_targets/target-arm-linux-gcc"/>
+
+</manifest>
