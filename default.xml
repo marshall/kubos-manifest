@@ -33,5 +33,5 @@
 
   <project name="kubos-location-demo" path="examples/kubos-location-demo"/>
   <project name="kubos-rt-example" path="examples/kubos-rt-example" revision="refs/tags/v0.0.1"/>
-  <project name="kubos-sdk" path="sdk"/>
+  <project name="kubos-sdk" path="sdk" revision="refs/tags/v0.0.1"/>
 </manifest>
