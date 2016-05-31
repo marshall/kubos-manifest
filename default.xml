@@ -9,6 +9,7 @@
   <project name="cmsis-core" path="cmsis/cmsis-core"/>
   <project name="cmsis-core-st" path="cmsis/cmsis-core-st"/>
   <project name="cmsis-core-stm32f4" path="cmsis/cmsis-core-stm32f4"/>
+  <project name="cmsis-core-stm32f405rg" path="cmsis/cmsis-core-stm32f405rg"/>
   <project name="cmsis-core-stm32f407xg" path="cmsis/cmsis-core-stm32f407xg"/>
 
   <project name="freertos" path="freertos/os"/>
@@ -19,14 +20,16 @@
   <project name="libcsp"/>
 
   <project name="kubos-hal" path="hal/kubos-hal"/>
-  <project name="kubos-hal-stm32f407vg" path="hal/kubos-hal-stm32f407vg"/>
+  <project name="kubos-hal-stm32f4" path="hal/kubos-hal-stm32f4"/>
   <project name="kubos-hal-msp430f5529" path="hal/kubos-hal-msp430f5529"/>
   <project name="msp430f5529-hal" path="hal/msp430f5529-hal"/>
   <project name="stm32cubef4" path="hal/stm32cubef4"/>
+  <project name="stm32cubef4-stm32f405rg" path="hal/stm32cubef4-stm32f405rg"/>
   <project name="stm32cubef4-stm32f407vg" path="hal/stm32cubef4-stm32f407vg"/>
 
   <project name="target-kubos-gcc" path="targets/target-kubos-gcc"/>
   <project name="target-kubos-arm-none-eabi-gcc" path="targets/target-kubos-arm-none-eabi-gcc"/>
+  <project name="target-stm32f405-pyboard-gcc" path="targets/target-stm32f405-pyboard-gcc"/>
   <project name="target-stm32f407-disco-gcc" path="targets/target-stm32f407-disco-gcc"/>
   <project name="target-msp430f5529-gcc" path="targets/target-msp430f5529-gcc"/>
   <project name="target-arm-linux-gcc" path="targets/target-arm-linux-gcc"/>
