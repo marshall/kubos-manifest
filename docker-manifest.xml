@@ -28,7 +28,9 @@
 
   <project name="target-kubos-gcc" path="yotta_targets/target-kubos-gcc"/>
   <project name="target-kubos-arm-none-eabi-gcc" path="yotta_targets/target-kubos-arm-none-eabi-gcc"/>
-  <project name="target-stm32f405-pyboard-gcc" path="yotta_targets/target-stm32f405-pyboard-gcc"/>
+  <project name="target-stm32f405-gcc" path="yotta_targets/target-stm32f405-gcc"/>
+  <project name="target-pyboard-gcc" path="yotta_targets/target-pyboard-gcc"/>
+  <project name="target-na-satbus-3c0-gcc" path="yotta_targets/target-na-satbus-3c0-gcc"/>
   <project name="target-stm32f407-disco-gcc" path="yotta_targets/target-stm32f407-disco-gcc"/>
   <project name="target-msp430f5529-gcc" path="yotta_targets/target-msp430f5529-gcc"/>
   <project name="target-arm-linux-gcc" path="yotta_targets/target-arm-linux-gcc"/>

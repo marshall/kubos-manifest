@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
   <remote name="openkosmosorg" fetch="https://github.com/openkosmosorg/"/>
+
   <default remote="openkosmosorg" revision="master"/>
 
   <project name="kubos-rt"/>
@@ -29,7 +30,10 @@
 
   <project name="target-kubos-gcc" path="targets/target-kubos-gcc"/>
   <project name="target-kubos-arm-none-eabi-gcc" path="targets/target-kubos-arm-none-eabi-gcc"/>
-  <project name="target-stm32f405-pyboard-gcc" path="targets/target-stm32f405-pyboard-gcc"/>
+  <project name="target-stm32f405-gcc" path="targets/target-stm32f405-gcc"/>
+  <project name="target-pyboard-gcc" path="targets/target-pyboard-gcc"/>
+  <project name="target-na-satbus-3c0-gcc" path="targets/target-na-satbus-3c0-gcc"/>
+
   <project name="target-stm32f407-disco-gcc" path="targets/target-stm32f407-disco-gcc"/>
   <project name="target-msp430f5529-gcc" path="targets/target-msp430f5529-gcc"/>
   <project name="target-arm-linux-gcc" path="targets/target-arm-linux-gcc"/>
